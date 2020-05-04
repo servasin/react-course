@@ -11,3 +11,17 @@ function HeaderComponent() {
 }
 
 export const Header = hot(HeaderComponent);
+
+/**
+ *  settings.json
+ * 
+ * {
+ *  "volume": 13,
+ *  "mute": false,
+ * }
+ * 
+ *  import settings from 'settings.json'
+ * 
+ *  settings.volime => 13
+ * 
+ */
